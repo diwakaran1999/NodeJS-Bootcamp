@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const Person = require('../models/person')
+
 router.post('/', async (req, res) => {
     try {
         const data = req.body;
