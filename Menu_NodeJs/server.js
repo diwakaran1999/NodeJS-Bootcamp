@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const db = require('./db')
+const db = require('../Menu_NodeJs/db')
 const bodyParser = require('body-parser');
 
 app.use(bodyParser.json()); // support json encoded bodies
