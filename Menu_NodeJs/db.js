@@ -1,14 +1,10 @@
 const mongoose = require('mongoose');
-
+require('dotenv').config();
 // const mongoURL = 'mongodb://127.0.0.1:27017/test_data';
-const mongoURL = 'mongodb+srv://diwakaranagr1999:node_bootcamp@cluster0.ri3bn6g.mongodb.net/';
+const mongoURL = process.env.MONGO_URL;
 
 
 
-// mongoose.connect(mongoURL, {
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true,
-// })
 mongoose.connect(mongoURL);
 const db = mongoose.connection;
 
