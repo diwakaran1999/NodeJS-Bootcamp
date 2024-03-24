@@ -1,8 +1,6 @@
 const mongoose = require('mongoose');
 
 // const mongoURL = 'mongodb://127.0.0.1:27017/test_data';
-const mongoURL = 'mongodb+srv://<user>:<password>@cluster0.ri3bn6g.mongodb.net/';
-
 
 
 // mongoose.connect(mongoURL, {
